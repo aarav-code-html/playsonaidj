@@ -1,0 +1,56 @@
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin:0px ;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 242);
+    border-radius: 20px;
+}
+.note{
+    font-size: 15px;
+    color: white;
+}
+.body{
+    background-size: cover;
+    background-image: url("https://i.gifer.com/embedded/download/HL8r.gif");
+}
+.div_speed{
+    float: left;
+
+}
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+
+}
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+.danger{
+    border-radius: 20px;
+    color: chartreuse;
+    font-size: 25px;
+}
+.play_button{
+    width: 130;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+
+}
