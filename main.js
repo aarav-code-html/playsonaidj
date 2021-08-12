@@ -15,14 +15,9 @@ poseNet.on('pose',gotPoses);
 function draw(){
     image(video,0,0,600,500);
 }
-function preload(){
-song= loadSound("music.mp3");
-}
-function play(){
-    song.play();
-    song.setVolume(1);
-    song.rate(1);
-}
+function preload() { song = loadSound("music.mp3"); }
+function play() { song.play(); song.setVolume(1); song.rate(1); }
+
  function modelloaded(){
      console.log('poseNet is inshilized')
  }
